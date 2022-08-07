@@ -18,6 +18,7 @@
 document.querySelectorAll("td").forEach(e => e.addEventListener("click", () => { displayCalculation(e.innerText) }))
 
 function displayCalculation(input) {
-    alert(`${input}`);
+    // alert(`${input}`);
+    document.querySelector("#display").value = input;
 
 }
